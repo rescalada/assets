@@ -1,0 +1,53 @@
+body{
+	margin:0;
+}
+
+html{
+	margin:0;
+}
+
+#profile-pic {
+    border-radius: 50px;
+}
+
+#follow-button {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.item {
+	height: 120px;
+	width: 120px;
+	margin-left: 10px;
+}
+
+.row{
+		margin-bottom: 10px;
+}
+
+.navbar-item{
+	margin-right: 20px;
+	
+}
+
+.item:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+
+#follow-button:active {
+	font-size: 18px;
+}
+
+.navbar-item:hover {
+	opacity: 1;
+	transition: 0.2s;
+}
+
+.item,.navbar-item,#follow-button {
+	cursor: pointer;
+}
+
